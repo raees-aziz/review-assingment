@@ -18,7 +18,7 @@ h4,
 h5,
 h6 {
   font-family: "Oswald";
-  text-align: center;
+padding:10px ;
   font-weight: 400;
 }
 .media {
@@ -42,8 +42,13 @@ h6 > b {
   background-color: black;
   color: aliceblue;
 }
+.text1{
+  text-align: center;
+}
+
 .text2 {
   margin: 0px 0px;
+  text-align: center;
 }
 
 .left {
@@ -84,7 +89,6 @@ h6 > b {
 }
 .like2 {
   border: none;
-
   display: flex;
   justify-content: space-between;
 }
@@ -113,9 +117,7 @@ span.comment {
   background-color: lightgrey;
   color: black;
 }
-.pics {
-  padding: 15px 55px;
-}
+
 .accounts {
   background-color: rgb(255, 255, 255);
   padding: 17px;
@@ -146,4 +148,49 @@ span.comment {
 .foot {
   background-color: darkgray;
   padding: 4% 0%;
+  text-align: center;
+  
+}
+  .image{
+    width: 100%;
+  }
+  button {
+    
+
+    background-color: #fff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   border: 0.5px solid black;
+
+  }
+  button i:hover {
+    color: black;
+    background-color:lightblue;
+  }
+  button b{
+    
+    color: #fff;
+    background-color: black;
+    padding: 2px;
+  }
+  button span {
+    
+    color: black;
+    background-color: #fff;
+    padding: ;
+
+  }
+  /* .inspiration-images{
+    width: 100%;
+    height: auto;
+  }
+  .collage{
+    width: 100%;
+  } */
+  /* .pics {
+  padding: 15px 55px;
+  margin: 0px 248px;
+} */
+.pics img{
+  width: 100%;
 }

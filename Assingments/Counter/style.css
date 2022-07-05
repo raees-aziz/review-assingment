@@ -1,0 +1,73 @@
+/*     #d9514eff pink
+       #2a2b2dff  black
+       #2da8d8ff  sky ble      */
+       /* #00629e    dark blue */
+/*     #339e66ff    green */
+
+body                {
+    /* margin: 0%;
+    padding: 0%; */
+    background-color:  #2a2b2dff ;
+}
+h1{
+    text-align: center;
+    color: #d9514eff;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container1{
+text-align: center;
+
+
+}
+
+
+
+
+.container2{
+    text-align: center;
+
+}
+
+.minus{
+    border: none;
+    padding: 4px 15px;
+    margin: 2px 12px;
+    opacity: 0.6;
+    transition: 0.5s;
+    background-color: #d9514e;
+  }
+.minus:hover{opacity: 1}
+
+
+
+.reset{
+    border: none;
+    padding: 4px 15px;
+    margin: 2px 12px;
+    opacity: 0.6;
+    transition: 0.5s;
+    background-color: #d9514e; 
+}
+.reset:hover{opacity: 1}
+
+.plus{
+    border: none;
+    padding: 4px 15px;
+    margin: 2px 12px;
+    opacity: 0.6;
+    transition: 0.5s;
+    background-color: #d9514e;
+}
+.plus:hover{opacity: 1}
+
+.counter{
+    height: 15vh;
+width: 11vw;
+background: #d9514e;
+color: #339e66ff ;
+font-size: 210%;
+box-shadow: 3px 2px 10px 4px #339e66ff ;
+margin: 29px 22px;
+border-radius: 20%;
+}
